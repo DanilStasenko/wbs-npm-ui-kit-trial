@@ -1,0 +1,32 @@
+{
+  "name": "wvs-ui-kit-trial",
+  "version": "1.0.10",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "pub": "webpack && npm version patch && npm publish",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Danil",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "css-loader": "^6.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "files": [
+    "dist"
+  ]
+}
