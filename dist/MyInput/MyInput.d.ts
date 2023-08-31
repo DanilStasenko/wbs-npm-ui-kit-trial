@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import './MyInput.scss';
+import './MyInput.css';
 export interface MyInputProps {
     big?: boolean;
     placeholder: string;

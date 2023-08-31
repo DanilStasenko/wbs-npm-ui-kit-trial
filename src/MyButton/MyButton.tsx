@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import './MyButton.scss'
+import './MyButton.css'
 
 export interface MyButtonProps {
 	children: any;
