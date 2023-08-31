@@ -1,0 +1,17 @@
+.my-button {
+	padding: 100px;
+	color: blue;
+	border: 1px solid blue;
+	border-radius: 5px;
+	background-color: black;
+	cursor: pointer;
+	transition: background-color .3s ease;
+	&:hover {
+		background-color: cornflowerblue;
+	}
+}
+
+.big-btn {
+	font-size: 30px;
+	padding: 20px;
+}

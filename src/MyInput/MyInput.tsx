@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import './MyInput.css'
+import './MyInput.scss'
 
 export interface MyInputProps {
     big?: boolean;
